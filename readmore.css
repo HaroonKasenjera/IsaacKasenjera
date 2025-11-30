@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+hr{
+    height: 0.05rem;
+    color: #333;
+    font-weight: 50;
+}
+.speaker h2{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 2.5rem;
+    color: #07fb;
+}
+.speaker-content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+}  
+.container img{
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.speaker-content p{
+    padding: 10px 50px;
+    margin-top: 10px;
+    justify-content: center;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+.consulting h2{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 2.5rem;
+    color: #07fb;
+}
+.consulting-content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+}
+.consulting-content p{
+    padding: 10px 50px;
+    margin-top: 10px;
+    justify-content: center;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+.education h2{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 2.5rem;
+    color: #07fb;
+}
+.education-content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+}
+.education-content p{
+    padding: 10px 50px;
+    margin-top: 10px;
+    justify-content: center;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.social-nav{
+    margin-top: 20px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.social-icons a{
+    color: #333;
+    font-size: 15px;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.nav ul{
+    list-style: none;
+}
+.footer .nav a{
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-left: 30px;
+    line-height: 2rem;
+}
+.footer p{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-weight: 200;
+    margin-top: 30px;
+}
+@media(max-width: 768px){
+    .speaker-content{
+        flex-direction: column;
+    }
+    .speaker-content img{
+        order: -1;
+        width: 100%;
+    }
+    .speaker-content p{
+        width: 100%;
+        padding: 10px 0;
+    }
+    .consulting-content{
+        flex-direction: column;
+    }
+    .consulting-content img{
+        order: -1;
+        width: 100%;
+    }
+    .consulting-content p{
+        width: 100%;
+        padding: 10px 0;
+    }
+    .education-content{
+        flex-direction: column; 
+    }
+    .education-content img{
+        order: -1;
+        width: 100%;
+    }
+    .education-content p{
+        width: 100%;
+        padding: 10px 0;
+    }
+}
