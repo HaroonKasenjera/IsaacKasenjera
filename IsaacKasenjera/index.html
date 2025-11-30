@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Badeen+Display&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<title>IsaacKasenjere</title>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "vf3Q3s26vcZ8iPB86",
+      });
+   })();
+</script>
+
+</head>
+<body>
+    <!--header-->
+    <header class="header">
+        <div class="header-container">
+            <div><a href="#hero" class="logo">IsaacKasenjere</a></div>
+            <div class="menu-toggle">&#9776;</div>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--section 1 home-->
+    <section id="home">
+        <span class="section-spacer"></span>
+        <div class="name-container">
+            <img src="Images/front.jpg" alt="">
+            <div class="name">
+                <h2>Isaac C. Kasenjere</h2>
+                <h3>[MBA-BBA-Adv.Dip B.Mgt-Dip.HTM]</h3>
+                <p>TEDx Global Speaker| Hospitality Business Strategist| Author| Ventriloqust for Education, Wellness and Tourism.</p>
+                <div class="call-to-action">
+                    <a href="#contact" class="contact">Book a Talk</a>
+                    <a href="#about" class="about-person">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section 2 about-->
+    <section id="about">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>I'm Isaac Chikwere Kasenjere, born on 9 January, a Hospitality
+                business strategist, TEDx Global Speaker, author, and Ventriloqust
+            driven by a mission to transform how the world experiences education,
+            wellness and tourism. </p>
+            <p>With an MBA, BBA, Advanced Diploma in Business Management, and 
+                a Diploma in Hospitality and Tourism Management, my journey blends 
+                academic insghts with over 15 years of practcal experiences in the 
+                hospitality and tourism sector.
+            </p>
+            <p>
+                As a speaker and educator, I've shared stages with diverse audiences
+                around the world, using the power of storytelling and ventriloquism
+                to inspire learning in unique and unforgettable ways. My talks explore
+                the intersections of creativity, leadership, and service showing how 
+                innovation in hospitality can drive community wellness and sustainabe 
+                growth.
+            </p>
+            <div class="connect">
+                <a href="#contact">Let's connect</a>
+            </div>
+        </div>
+    </section>
+
+    <!--section 3 services-->
+    <section id="service">
+        <div class="service-content">
+            <h2 class="offer">What I Offer</h2>
+            <div class="service-container">
+                <div class="service-card">
+                    <img src="Images/Speaker.jpg" alt="Speaking">
+                    <div class="service-info">
+                        <h3>Speaking</h3>
+                        <p>Inspiring and thought provoking presentations on leadership,
+                            wellness, hospitality and personal growth.
+                        </p>
+                        <a href="readmore.html" class="bttn">Read More</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="Images/consulting.jpg" alt="Speaking">
+                    <div class="service-info">
+                        <h3>Project Consulting</h3>
+                        <p>Redefining hospitality excellence from service culture to
+                            guest satisfaction, we turn hospitality into art.
+                        </p>
+                        <a href="readmore.html" class="bttn">Read More</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="Images/Mopiha.jpg" alt="puppet">
+                    <div class="service-info">
+                        <h3>Educational Entertainment</h3>
+                        <p>Blending fun and learning, our educational entertainment delivers
+                            engaging stories and experiences that inspires growth, curiosity, and positive
+                            change.
+                        </p>
+                        <a href="readmore.html" class="bttn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--section 4 contacts and social media links-->
+    <section id="contact">
+        <div class="contact-container">
+                <form class="contact-form">
+                    <div class="contact-title">
+                        <h3>Get In Touch</h3>
+                        <hr>
+                    </div>
+                    <input type="text" name="name" placeholder="Enter your full name" class="contact-input" id="name" required>
+                    <input type="email" name="email" placeholder="Enter your email" class="contact-input" id="email" required>
+                    <textarea name="message" class="contact-input" id="message" placeholder="Your message" required></textarea>
+                    <button type="button" onclick="sendMail()">Submit</button>
+                </form>
+                
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="social-nav">
+                <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                    <a href="https://www.tiktok.com/@puppet_mopiha?_t=ZM-90i51NBWaL2&_r=1">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                    <a href="https://x.com/cul_billionaire?t=PawNfqTwS64D5XH3euPL4A&s=09">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="https://blinq.me/dLGZpiHiHGJc">
+                        <i class="fa-solid fa-link"></i>
+                    </a>
+            </div>    
+        </div>
+        <p>&copy; 2025 Isaac Kasenjere. All rights reserved.</p>   
+    </footer>
+    <script src="sandbox.js"></script>
+</body>
+</html>
